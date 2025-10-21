@@ -7,7 +7,7 @@ let Employee = new Schema({
       type: String
    },
    email: {
-      type: String
+      type: String 
    },
    designation: {
       type: String
