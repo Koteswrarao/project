@@ -10,7 +10,7 @@ let Employee = new Schema({
       type: String 
    },
    designation: {
-      type: String
+      type: String || Number
    },
    phoneNumber: {
       type: Number

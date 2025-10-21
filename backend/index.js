@@ -32,10 +32,10 @@ app.use(
     extended: false,
   }),
 )
-app.use(cors())
-app.use(express.static(path.join(__dirname, 'dist/mean-stack-crud-app')))
-app.use('/', express.static(path.join(__dirname, 'dist/mean-stack-crud-app')))
-app.use('/api', employeeRoute)
+// app.use(cors())
+// app.use(express.static(path.join(__dirname, 'dist/mean-stack-crud-app')))
+// app.use('/', express.static(path.join(__dirname, 'dist/mean-stack-crud-app')))
+// app.use('/api', employeeRoute)
 
 // Create port
 const port = process.env.PORT || 4000
